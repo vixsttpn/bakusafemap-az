@@ -11,7 +11,7 @@ export default function LiveMiniMap(){
       if(!ref.current) return;
       map = new maplibregl.Map({
         container: ref.current,
-        style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+        style:'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
         center:[49.854,40.376],
         zoom:11,
         attributionControl:false
