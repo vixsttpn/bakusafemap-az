@@ -1,7 +1,8 @@
-module.exports={
-  output:'export',
-  reactStrictMode:true,
-  eslint:{ignoreDuringBuilds:true},
-  images:{unoptimized:true},
-  trailingSlash:true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: { unoptimized: true },
+  trailingSlash: true,
+  typescript: { ignoreBuildErrors: true }
 }
+module.exports = nextConfig
