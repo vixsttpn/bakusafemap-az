@@ -1,0 +1,12 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+*{ -webkit-tap-highlight-color:transparent; box-sizing:border-box; }
+body{background:#0F0F0F;color:white;font-family:Manrope,Geist,sans-serif;margin:0;overscroll-behavior:none;-webkit-font-smoothing:antialiased}
+.maplibregl-ctrl-attrib{display:none!important}
+.maplibregl-ctrl-group{border:none!important;box-shadow:0 8px 24px rgba(0,0,0,0.12)!important;border-radius:14px!important}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:0.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");mix-blend-mode:soft-light}
+@keyframes mosh-blur-in{0%{opacity:0;filter:blur(24px);transform:translate3d(0,28px,0) scale(0.97)}100%{opacity:1;filter:blur(0);transform:none}}
+@keyframes mosh-slide-up{0%{opacity:0;transform:translate3d(0,48px,0)}100%{opacity:1;transform:none}}
+@keyframes pulse-soft{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.08);opacity:0.85}}
+.mosh-blur-in{animation:mosh-blur-in 1s cubic-bezier(0.16,1,0.3,1) both}
+.mosh-slide-up{animation:mosh-slide-up 0.8s cubic-bezier(0.16,1,0.3,1) both}
+.scroll-hide{scrollbar-width:none}.scroll-hide::-webkit-scrollbar{display:none}
