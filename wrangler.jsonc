@@ -1,8 +1,0 @@
-{
-  "name": "bakusafemap-az",
-  "compatibility_date": "2024-10-01",
-  "assets": {
-    "directory": "./out",
-    "not_found_handling": "single-page-application"
-  }
-}

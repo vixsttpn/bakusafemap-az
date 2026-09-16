@@ -1,4 +1,0 @@
-'use client';
-export default function SocialProof(){
-return (<div className="bg-[#0F0F0F] py-[120px] px-6 border-y border-white/5"><div className="max-w-[1120px] mx-auto flex flex-wrap gap-12 justify-between items-center"><div><p className="text-[40px] font-[800] leading-none">412</p><p className="text-[11px] tracking-[0.12em] text-white/40 mt-2">ВОДИТЕЛЕЙ</p></div><div><p className="text-[40px] font-[800] leading-none">89</p><p className="text-[11px] tracking-[0.12em] text-white/40 mt-2">РЕМОНТОВ</p></div><div><p className="text-[40px] font-[800] leading-none">2м</p><p className="text-[11px] tracking-[0.12em] text-white/40 mt-2">НАЗАД</p></div><div className="flex items-center gap-4 max-w-[320px]"><div className="w-10 h-10 rounded-full bg-[#FFD6A5] flex items-center justify-center">♥</div><p className="text-[13px] leading-[1.5] text-white/60">Устал от рекламы заправок в навигаторе. Тут только дороги.</p></div></div></div>);
-}
