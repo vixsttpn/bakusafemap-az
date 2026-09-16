@@ -301,7 +301,7 @@ export default function LandingPage() {
                     />
                     {/* User dot */}
                     <circle cx="250" cy="240" r="14" fill="#1A73E8" />
-                    <circle cx="250" cy="240" r="14" fill="#1A73E8" opacity="0.3" r="24">
+                    <circle cx="250" cy="240" r="24" fill="#1A73E8" opacity="0.3">
                       <animate attributeName="r" values="14;28" dur="2s" repeatCount="indefinite" />
                       <animate attributeName="opacity" values="0.3;0" dur="2s" repeatCount="indefinite" />
                     </circle>
