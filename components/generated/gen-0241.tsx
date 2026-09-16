@@ -1,7 +1,0 @@
-'use client'
-import React from 'react'
-// Auto-generated component 0241
-export function Gen0241({ children }: { children?: React.ReactNode }) {
-  return <div data-gen='241' style={{display:'contents'}}>{children}</div>
-}
-export default Gen0241
