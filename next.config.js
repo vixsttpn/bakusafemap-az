@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  typescript: { ignoreBuildErrors: true },
+  trailingSlash: true,
   eslint: { ignoreDuringBuilds: true },
-}
-module.exports = nextConfig
+  typescript: { ignoreBuildErrors: false },
+};
+module.exports = nextConfig;
