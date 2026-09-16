@@ -1,0 +1,9 @@
+/* Gradient Mesh Animation */
+.gradient-mesh {
+  background: radial-gradient(at 40% 20%, rgba(26,115,232,0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(255,107,0,0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(232,255,89,0.08) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(26,115,232,0.12) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(255,59,48,0.08) 0px, transparent 50%);
+  animation: meshPan 20s linear infinite;
+}

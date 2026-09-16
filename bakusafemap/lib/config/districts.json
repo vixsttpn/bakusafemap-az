@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nasimi",
+    "name": "Насими",
+    "lat": 40.378,
+    "lng": 49.845,
+    "color": "#1A73E8",
+    "area_km2": 3.2,
+    "population": 200000
+  },
+  {
+    "id": "yasamal",
+    "name": "Ясамал",
+    "lat": 40.374,
+    "lng": 49.823,
+    "color": "#007AFF",
+    "area_km2": 6.8,
+    "population": 150000
+  },
+  {
+    "id": "narimanov",
+    "name": "Нариманов",
+    "lat": 40.39,
+    "lng": 49.838,
+    "color": "#34d399",
+    "area_km2": 8.1,
+    "population": 170000
+  },
+  {
+    "id": "sabail",
+    "name": "Сабаил",
+    "lat": 40.369,
+    "lng": 49.855,
+    "color": "#FF9500",
+    "area_km2": 4.3,
+    "population": 80000
+  },
+  {
+    "id": "nizami",
+    "name": "Низами",
+    "lat": 40.379,
+    "lng": 49.862,
+    "color": "#8E8E93",
+    "area_km2": 5.6,
+    "population": 120000
+  },
+  {
+    "id": "khatai",
+    "name": "Хатаи",
+    "lat": 40.382,
+    "lng": 49.887,
+    "color": "#FF3B30",
+    "area_km2": 12.0,
+    "population": 190000
+  },
+  {
+    "id": "surakhani",
+    "name": "Сураханы",
+    "lat": 40.392,
+    "lng": 49.944,
+    "color": "#6366f1",
+    "area_km2": 30.2,
+    "population": 210000
+  },
+  {
+    "id": "binagadi",
+    "name": "Бинагади",
+    "lat": 40.417,
+    "lng": 49.821,
+    "color": "#ec4899",
+    "area_km2": 27.1,
+    "population": 180000
+  },
+  {
+    "id": "garadagh",
+    "name": "Гарадаг",
+    "lat": 40.318,
+    "lng": 49.912,
+    "color": "#14b8a6",
+    "area_km2": 67.0,
+    "population": 90000
+  },
+  {
+    "id": "khazar",
+    "name": "Хазар",
+    "lat": 40.428,
+    "lng": 50.025,
+    "color": "#f59e0b",
+    "area_km2": 272.0,
+    "population": 100000
+  },
+  {
+    "id": "sabunchu",
+    "name": "Сабунчу",
+    "lat": 40.431,
+    "lng": 49.936,
+    "color": "#10b981",
+    "area_km2": 18.3,
+    "population": 160000
+  },
+  {
+    "id": "pirallahi",
+    "name": "Пираллахи",
+    "lat": 40.465,
+    "lng": 50.05,
+    "color": "#3b82f6",
+    "area_km2": 22.5,
+    "population": 30000
+  }
+]

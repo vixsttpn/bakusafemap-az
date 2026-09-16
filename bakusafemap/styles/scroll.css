@@ -1,0 +1,46 @@
+
+/* Scroll — Baku Safe Map */
+html { scroll-behavior: smooth; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.25); }
+
+/* Horizontal snap carousel */
+.snap-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  gap: 16px;
+  padding: 4px 0 16px;
+}
+.snap-carousel::-webkit-scrollbar { display: none; }
+.snap-carousel > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Smooth parallax sections */
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Pinned sections */
+.sticky-section {
+  position: sticky;
+  top: 60px;
+}
+
+/* Overflow hidden for sections */
+.section-clip { overflow: hidden; }
+
+/* Reveal helpers */
+.reveal-group > .reveal:nth-child(1) { transition-delay: 0ms; }
+.reveal-group > .reveal:nth-child(2) { transition-delay: 80ms; }
+.reveal-group > .reveal:nth-child(3) { transition-delay: 160ms; }
+.reveal-group > .reveal:nth-child(4) { transition-delay: 240ms; }
+.reveal-group > .reveal:nth-child(5) { transition-delay: 320ms; }

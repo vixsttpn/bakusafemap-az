@@ -1,0 +1,24 @@
+{
+  "types": [
+    "danger",
+    "police",
+    "accident",
+    "repair"
+  ],
+  "ttl_hours": 24,
+  "storage_key": "bsm_rep",
+  "max_reports": 500,
+  "colors": {
+    "danger": "#FF3B30",
+    "police": "#007AFF",
+    "accident": "#FF9500",
+    "repair": "#8E8E93"
+  },
+  "labels_ru": {
+    "danger": "Опасность",
+    "police": "Полиция",
+    "accident": "Авария",
+    "repair": "Ремонт"
+  },
+  "marker_size": 14
+}
